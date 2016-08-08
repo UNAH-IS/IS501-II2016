@@ -46,3 +46,38 @@ Muchos a Muchos N:M
 
 
 Una relacion de N:M fisicamente en la base de datos se representara mediante una tabla intermedia, dicha tabla tendra la llave primaria de ambas tablas relacionadas y seran llaves foraneas, Usualmente la combinacion de estas llaves foraneas formaran una llave primaria compuesta en la tabla intermedia.
+
+
+ER  			Relacional
+Entidad 		Tabla
+Atributo 		Campo o columna
+
+
+En el modelo relacional se utilizan plurales para los nombre de las tablas.
+
+
+Modelo relacional Youtube
+Entidades:
+Video
+ESTADOS VIDEOS
+SUBTITULOS
+Usuario
+	TIPOS USUARIO
+	ESTADO DEL USUARIO
+ENTIDAD RELACIONADA CON PAGOS
+DENUNCIAS DE CONTENIDA
+Lista de reproduccion
+Cola de reproduccion
+Comentario
+Likes
+Visualizaciones
+Canal
+Paises
+Origenes -> Como fue que llego al video
+Clasificacion
+Tendencia
+Historial
+VerLuego
+VideosCompartidos
+
+
