@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFFE0BD0-6452-40ED-650C-C130A845E35B" name="TBL_USUARIO_ETIQUETADOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71F58FBD-C302-AA45-0A8A-DBA9627A9CB1" name="TBL_VIDEOS_X_LISTA">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2016-08-05 17:27:12 UTC</createdTime>
+<createdTime>2016-08-08 17:31:51 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_COMENTARIO" id="39C482BB-66E0-11FC-26BB-0703D4E32F06">
+<Column name="CODIGO_LISTA_REPRODUCCION" id="53920AF9-E259-A24B-DF37-64D57982B6B5">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2016-08-05 17:28:17 UTC</createdTime>
+<createdTime>2016-08-08 17:32:20 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -16,12 +16,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C60B6CE0-DE37-1025-0E5E-76FF9288F0D1" referredColumn="0750401C-B120-61D9-05E6-14556ED07747"/>
+<colAssociation fkAssociation="F55F2282-2728-177B-656D-26F565621801" referredColumn="E9167CF2-919A-8123-D728-1E298BFE8192"/>
 </associations>
 </Column>
-<Column name="CODIGO_USUARIO" id="7B929343-E8B4-5435-9D32-BF5564F89183">
+<Column name="CODIGO_VIDEO" id="246AD3E3-D726-CAA1-FB74-71A28DD91DEE">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2016-08-05 17:28:23 UTC</createdTime>
+<createdTime>2016-08-08 17:32:27 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,50 +29,50 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0DC56AB6-151D-D288-6FB7-1A3087F470AA" referredColumn="84ED8063-FF90-AB1B-31FD-43041E07C864"/>
+<colAssociation fkAssociation="5B584189-AFCA-4469-6FB6-14EED6A9E557" referredColumn="AC03BEFF-B742-6B07-4018-F71ECF873A5A"/>
 </associations>
 </Column>
-<Column name="FECHA_ETIQUETA" id="282AE318-21A0-9DF2-BEBA-630D1E9FFAE0">
+<Column name="ORDEN" id="A392CE6E-8135-2C97-3953-87AC187402ED">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2016-08-08 17:10:51 UTC</createdTime>
+<createdTime>2016-08-08 17:33:44 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="16E44517-8BA6-E843-950D-C8356E232112" name="TBL_USUARIO_ETIQUETADOS_PK">
+<ind_PK_UK id="F806F64D-99B5-C801-55C5-6724A03FBC1F" name="TBL_VIDEOS_X_LISTA_PK">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2016-08-08 17:10:32 UTC</createdTime>
+<createdTime>2016-08-08 17:33:02 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="39C482BB-66E0-11FC-26BB-0703D4E32F06"/>
-<colUsage columnID="7B929343-E8B4-5435-9D32-BF5564F89183"/>
+<colUsage columnID="246AD3E3-D726-CAA1-FB74-71A28DD91DEE"/>
+<colUsage columnID="53920AF9-E259-A24B-DF37-64D57982B6B5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D1822DEA-F8A5-AB57-74F7-73F173AD8925" name="TBL_USUARIO_ETIQUETADOS_TBL_COMENTARIOS_FK">
+<ind_PK_UK id="8BD3C5BA-2C9D-446E-FFF9-9C24C5FA3A30" name="TBL_VIDEOS_X_LISTA_TBL_LISTAS_REPRODUCCION_FK">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2016-08-05 17:28:17 UTC</createdTime>
+<createdTime>2016-08-08 17:32:20 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="39C482BB-66E0-11FC-26BB-0703D4E32F06"/>
+<colUsage columnID="53920AF9-E259-A24B-DF37-64D57982B6B5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C4B1D63D-647F-F609-2CBB-4445379246B1" name="TBL_USUARIO_ETIQUETADOS_TBL_USUARIOS_FK">
+<ind_PK_UK id="E2E97716-D033-B399-F2B9-1166D1546EB7" name="TBL_VIDEOS_X_LISTA_TBL_VIDEOS_FK">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2016-08-05 17:28:23 UTC</createdTime>
+<createdTime>2016-08-08 17:32:27 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7B929343-E8B4-5435-9D32-BF5564F89183"/>
+<colUsage columnID="246AD3E3-D726-CAA1-FB74-71A28DD91DEE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

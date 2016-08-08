@@ -42,6 +42,19 @@
 <colAssociation fkAssociation="E83048A7-EE8C-D503-A49F-AB2CA686C4A9" referredColumn="09722CAE-EC6C-1E72-4D42-B2EEF1BE7064"/>
 </associations>
 </Column>
+<Column name="CODIGO_IDIOMA" id="78CA6494-B60C-76B9-F2FB-65EB08C0F1AE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-08 17:46:54 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05CCAE4B-0591-16A6-FD8D-01EEBC0BEC51" referredColumn="BF573103-E45A-83FE-9C04-8194738D0D59"/>
+</associations>
+</Column>
 <Column name="NOMBRE_VIDEO" id="1CC355B7-85CF-8853-0CD3-F6634FE62553">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-04 17:34:45 UTC</createdTime>
@@ -176,6 +189,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1C30B73D-A40A-00EC-4F11-C814713FF11D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8267A675-807C-BC7A-0C43-E497F73AF3A2" name="TBL_VIDEOS_TBL_IDIOMAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-08 17:46:54 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78CA6494-B60C-76B9-F2FB-65EB08C0F1AE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
