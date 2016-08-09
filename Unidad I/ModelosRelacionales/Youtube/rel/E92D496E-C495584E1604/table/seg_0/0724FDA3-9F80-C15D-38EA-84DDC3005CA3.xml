@@ -55,6 +55,19 @@
 <colAssociation fkAssociation="05CCAE4B-0591-16A6-FD8D-01EEBC0BEC51" referredColumn="BF573103-E45A-83FE-9C04-8194738D0D59"/>
 </associations>
 </Column>
+<Column name="CODIGO_CANAL" id="BB1AFF50-71C7-23C1-170D-2D48AC564444">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:33:41 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CE2EC6E-A4BD-FF27-094F-FF66CF99B5E3" referredColumn="785ADCF0-B390-2C82-90FA-875626D34B7A"/>
+</associations>
+</Column>
 <Column name="NOMBRE_VIDEO" id="1CC355B7-85CF-8853-0CD3-F6634FE62553">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-04 17:34:45 UTC</createdTime>
@@ -199,6 +212,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="78CA6494-B60C-76B9-F2FB-65EB08C0F1AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B918B38-7390-6A8A-ED3A-4CC6E409F3D1" name="TBL_VIDEOS_TBL_CANALES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:33:41 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB1AFF50-71C7-23C1-170D-2D48AC564444"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
