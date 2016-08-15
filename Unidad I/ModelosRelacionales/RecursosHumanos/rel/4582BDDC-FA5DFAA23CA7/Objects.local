@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="B967A73B-93EC-37D3-4246-1FA1DDF94426" name="TBL_ACCESOS_FISICOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="BB46D454-769D-271C-EC5C-CEB5EA73C59C" name="TBL_ADMINISTRADORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="9815212A-8C03-75C6-A93B-169AAE7C9266" name="TBL_EMPLEADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="3AC3D2AF-BDF6-7E21-B6D8-2ED03F273A4F" name="TBL_INSTITUCIONES_EDUCATIVAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="984E4232-CA2F-7FBC-9507-F7EEAFFA116F" name="TBL_PLAZAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="8B61EA29-0993-BB6A-51F3-18D5B8140DC6" name="TBL_PROFESIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="ABF93EF4-1094-F493-4B22-7151569371AC" name="TBL_PROFESIONES_X_EMPLEADO" seqName="seg_0"/>
+   <object objectType="Table" objectID="4F134350-E480-14BC-DF40-E38F17D2C3DA" name="TBL_PUESTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="AAFFB0BB-94E2-388C-F532-E6393A0A9514" name="TBL_PUNTOS_ACCESO" seqName="seg_0"/>
+   <object objectType="Table" objectID="245354A7-B8FE-341F-A382-77085E751DA8" name="TBL_REFERENCIAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="BD50ABE1-6152-AC35-0897-A2840C670A17" name="TBL_REFERENCIAS_X_EMPLEADO" seqName="seg_0"/>
+   <object objectType="Table" objectID="0FF51F18-9562-C455-6C06-58C550CC0852" name="TBL_SUCURSALES" seqName="seg_0"/>
+   <object objectType="Table" objectID="D99E306A-4D9F-7577-3963-6656FB9EE900" name="TBL_SUPERVISORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="643A5AF6-35E2-F005-0CCC-455D328C9C24" name="TBL_TARJETAS_ACCESO" seqName="seg_0"/>
+   <object objectType="Table" objectID="1C2C9F1B-7387-667C-4ECF-8F52E68DA834" name="TBL_TIPOS_EMPLEADOS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="56230A68-91AC-3F98-045A-56DC2F348923" name="TBL_ACCESOS_FISICOS_TBL_PUNTOS_ACCESO_FK" seqName="seg_0" containerID="B967A73B-93EC-37D3-4246-1FA1DDF94426" refContainerID="AAFFB0BB-94E2-388C-F532-E6393A0A9514"/>
+   <object objectType="FKIndexAssociation" objectID="13CA542F-2C56-C77C-C383-C859197AC45C" name="TBL_ACCESOS_FISICOS_TBL_TARJETAS_ACCESO_FK" seqName="seg_0" containerID="B967A73B-93EC-37D3-4246-1FA1DDF94426" refContainerID="643A5AF6-35E2-F005-0CCC-455D328C9C24"/>
+   <object objectType="FKIndexAssociation" objectID="D8CB8F9E-1ABE-45A1-0D9A-446B9953D267" name="TBL_ADMINISTRADORES_TBL_EMPLEADOS_FK" seqName="seg_0" containerID="BB46D454-769D-271C-EC5C-CEB5EA73C59C" refContainerID="9815212A-8C03-75C6-A93B-169AAE7C9266"/>
+   <object objectType="FKIndexAssociation" objectID="6BA516EA-D1BB-E8E1-7857-D10BC3BF8851" name="TBL_EMPLEADOS_TBL_PLAZAS_FK" seqName="seg_0" containerID="9815212A-8C03-75C6-A93B-169AAE7C9266" refContainerID="984E4232-CA2F-7FBC-9507-F7EEAFFA116F"/>
+   <object objectType="FKIndexAssociation" objectID="A5C58830-B83B-FE9D-4F20-B996D0D8407F" name="TBL_EMPLEADOS_TBL_TIPOS_EMPLEADOS_FK" seqName="seg_0" containerID="9815212A-8C03-75C6-A93B-169AAE7C9266" refContainerID="1C2C9F1B-7387-667C-4ECF-8F52E68DA834"/>
+   <object objectType="FKIndexAssociation" objectID="FA8825BB-64CB-29AF-DD73-4E3D6BE86008" name="TBL_PLAZAS_TBL_PUESTOS_FK" seqName="seg_0" containerID="984E4232-CA2F-7FBC-9507-F7EEAFFA116F" refContainerID="4F134350-E480-14BC-DF40-E38F17D2C3DA"/>
+   <object objectType="FKIndexAssociation" objectID="46E5F6F7-1EFE-2867-2526-48C83244FD9B" name="TBL_PROFESIONES_X_EMPLEADO_TBL_EMPLEADOS_FK" seqName="seg_0" containerID="ABF93EF4-1094-F493-4B22-7151569371AC" refContainerID="9815212A-8C03-75C6-A93B-169AAE7C9266"/>
+   <object objectType="FKIndexAssociation" objectID="767B485D-ADFD-C750-B2DB-E6A66A58C53A" name="TBL_PROFESIONES_X_EMPLEADO_TBL_INSTITUCIONES_EDUCATIVAS_FK" seqName="seg_0" containerID="ABF93EF4-1094-F493-4B22-7151569371AC" refContainerID="3AC3D2AF-BDF6-7E21-B6D8-2ED03F273A4F"/>
+   <object objectType="FKIndexAssociation" objectID="2A4078D6-9387-1222-142B-EB1F60ADA263" name="TBL_PROFESIONES_X_EMPLEADO_TBL_PROFESIONES_FK" seqName="seg_0" containerID="ABF93EF4-1094-F493-4B22-7151569371AC" refContainerID="8B61EA29-0993-BB6A-51F3-18D5B8140DC6"/>
+   <object objectType="FKIndexAssociation" objectID="0ACC21DB-FF9A-92EC-42FA-BD4216F7A52A" name="TBL_PUESTOS_TBL_PUESTOS_FK" seqName="seg_0" containerID="4F134350-E480-14BC-DF40-E38F17D2C3DA" refContainerID="4F134350-E480-14BC-DF40-E38F17D2C3DA"/>
+   <object objectType="FKIndexAssociation" objectID="E097706D-7C55-CCA9-7F68-BB8665664F2D" name="TBL_REFERENCIAS_X_EMPLEADO_TBL_EMPLEADOS_FK" seqName="seg_0" containerID="BD50ABE1-6152-AC35-0897-A2840C670A17" refContainerID="9815212A-8C03-75C6-A93B-169AAE7C9266"/>
+   <object objectType="FKIndexAssociation" objectID="CFDEB70D-01CE-CD53-23EC-81AD73C4404A" name="TBL_REFERENCIAS_X_EMPLEADO_TBL_REFERENCIAS_FK" seqName="seg_0" containerID="BD50ABE1-6152-AC35-0897-A2840C670A17" refContainerID="245354A7-B8FE-341F-A382-77085E751DA8"/>
+   <object objectType="FKIndexAssociation" objectID="FC61C349-5484-1E88-B9BB-F52AA85F6D14" name="TBL_SUCURSALES_TBL_SUPERVISORES_FK" seqName="seg_0" containerID="0FF51F18-9562-C455-6C06-58C550CC0852" refContainerID="D99E306A-4D9F-7577-3963-6656FB9EE900"/>
+   <object objectType="FKIndexAssociation" objectID="7962FA2C-CF65-72E3-A45A-7E213AFD9900" name="TBL_SUPERVISORES_TBL_EMPLEADOS_FK" seqName="seg_0" containerID="D99E306A-4D9F-7577-3963-6656FB9EE900" refContainerID="9815212A-8C03-75C6-A93B-169AAE7C9266"/>
+   <object objectType="FKIndexAssociation" objectID="AD8A7C7E-03EC-F0DA-110D-E3D9757EC816" name="TBL_TARJETAS_ACCESO_TBL_EMPLEADOS_FK" seqName="seg_0" containerID="643A5AF6-35E2-F005-0CCC-455D328C9C24" refContainerID="9815212A-8C03-75C6-A93B-169AAE7C9266"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
