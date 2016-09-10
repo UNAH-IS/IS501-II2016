@@ -123,7 +123,7 @@
 <colUsage columnID="6076C8F7-ACCD-E627-A5C4-EB6F63B8E7DB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E6ECD4DC-22BE-FF2E-A239-046FB9C116ED" name="TBL_TRANSACCIONES_PAGOS_TBL_TIPOS_PAGO_FK">
+<ind_PK_UK id="E6ECD4DC-22BE-FF2E-A239-046FB9C116ED" name="TRANS_TIPOS_PAGO_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-10 17:50:36 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -133,7 +133,7 @@
 <colUsage columnID="EF36C196-2834-2033-EC68-FF87750F42BB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2A338660-1F50-B6A0-1A93-19FEEE6AFB5D" name="TBL_TRANSACCIONES_PAGOS_TBL_VIDEOS_FK">
+<ind_PK_UK id="2A338660-1F50-B6A0-1A93-19FEEE6AFB5D" name="TRANS_PA_VID_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-10 17:50:41 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -143,7 +143,7 @@
 <colUsage columnID="872F00ED-E4C4-2769-3FD0-CE447B4CFDDD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="764D40FB-2C44-2E22-452D-5872F83E400C" name="TBL_TRANSACCIONES_PAGOS_TBL_USUARIOS_FK">
+<ind_PK_UK id="764D40FB-2C44-2E22-452D-5872F83E400C" name="TRANS_PAG_USU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-10 17:50:44 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

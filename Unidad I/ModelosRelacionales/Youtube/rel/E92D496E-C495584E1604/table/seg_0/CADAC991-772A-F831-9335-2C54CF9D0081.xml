@@ -100,7 +100,7 @@
 <colUsage columnID="45222979-252A-6094-FB99-A574A827C20C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CE9E8A25-12B3-9D5B-074B-FC7FCDF0C9EB" name="TBL_DENUNCIAS_TBL_TIPOS_DENUNCIAS_FK">
+<ind_PK_UK id="CE9E8A25-12B3-9D5B-074B-FC7FCDF0C9EB" name="DEN_TIP_DEN_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-11 17:25:12 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -110,7 +110,7 @@
 <colUsage columnID="8D150F0B-1AC4-04FD-1543-35AFB6CC6D68"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="83D1ABE8-2C90-3112-BC6E-1740824DB15E" name="TBL_DENUNCIAS_TBL_ESTADOS_DENUNCIAS_FK">
+<ind_PK_UK id="83D1ABE8-2C90-3112-BC6E-1740824DB15E" name="DEN_EST_DEN_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-11 17:25:16 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -120,7 +120,7 @@
 <colUsage columnID="8C3AD217-D0A9-9BD8-AC34-4F0DF97DC517"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="77D90F0E-707C-1302-AA26-28BADB62F188" name="TBL_DENUNCIAS_TBL_USUARIOS_FK">
+<ind_PK_UK id="77D90F0E-707C-1302-AA26-28BADB62F188" name="TBL_DEN_TBL_USUARIOS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-11 17:25:22 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

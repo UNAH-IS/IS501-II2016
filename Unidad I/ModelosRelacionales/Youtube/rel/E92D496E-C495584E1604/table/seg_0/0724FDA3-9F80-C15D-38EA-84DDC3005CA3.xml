@@ -194,7 +194,7 @@
 <colUsage columnID="E5D95667-3DA8-68B1-601C-153C35D24EFF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5B091B32-C5BD-E107-49AB-CC1C8FC80DDE" name="TBL_VIDEOS_TBL_ESTADOS_VIDEOS_FK">
+<ind_PK_UK id="5B091B32-C5BD-E107-49AB-CC1C8FC80DDE" name="VID_EST_VID_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-04 17:43:02 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

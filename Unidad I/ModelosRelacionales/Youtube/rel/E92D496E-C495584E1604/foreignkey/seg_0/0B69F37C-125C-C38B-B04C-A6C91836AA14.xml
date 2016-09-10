@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B69F37C-125C-C38B-B04C-A6C91836AA14" containerWithKeyObject="6C146829-910D-F66A-837E-0B42EE003A9E" localFKIndex="E6ECD4DC-22BE-FF2E-A239-046FB9C116ED" name="TBL_TRANSACCIONES_PAGOS_TBL_TIPOS_PAGO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B69F37C-125C-C38B-B04C-A6C91836AA14" containerWithKeyObject="6C146829-910D-F66A-837E-0B42EE003A9E" localFKIndex="E6ECD4DC-22BE-FF2E-A239-046FB9C116ED" name="TRANS_TIPOS_PAGO_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-10 17:50:36 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

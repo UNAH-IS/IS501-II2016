@@ -41,6 +41,72 @@
 <colAssociation fkAssociation="A5C58830-B83B-FE9D-4F20-B996D0D8407F" referredColumn="997495A5-B2BA-F182-0D80-F09BA79B6517"/>
 </associations>
 </Column>
+<Column name="CODIGO_ESTADO" id="13F64876-A082-7555-C579-18ADA0F3441F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:12:42 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E13F7893-A266-1338-BB5B-9CAC1AD48F39" referredColumn="0B081655-F719-CDB5-6512-9A6E2D2725F6"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR" id="965348CC-399C-2665-911B-BA1F0C1DEEDF">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:21:41 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B79E8997-C350-C9F7-B01D-4CA7FCFF8A10" referredColumn="6BD392E3-24BE-15AF-2D85-A0C111F6067F"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_CIVIL" id="2C72A051-0549-0E86-FAC8-9522011A584D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:36:23 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3B768DD-73F9-E6D2-ACD3-165C4ACFABF8" referredColumn="AAD04486-BBAB-8164-4921-862139CFE802"/>
+</associations>
+</Column>
+<Column name="CODIGO_DEPARTAMENTO" id="DFF08E78-58DA-FA84-A8B7-412ED160D701">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:40:58 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70DCDF2B-DC6C-9558-2580-DCB3BD2D1174" referredColumn="5197FDCD-D86B-2150-6744-F45A8C4C6DEB"/>
+</associations>
+</Column>
+<Column name="CODIGO_CUENTA_ACTIVA" id="819387DD-BE1A-609B-FA85-832D3E05AE10">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:31:26 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EC48604-BF68-3766-A2D9-4002FFC6942C" referredColumn="C337F2DD-71C4-A4E1-80A1-A1233DB391FD"/>
+</associations>
+</Column>
 <Column name="NOMBRE" id="2D66C8B0-DCC9-F63D-956B-ABC64C850C95">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-12 17:26:08 UTC</createdTime>
@@ -181,6 +247,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="OBSERVACIONES" id="86D1B84C-1B7A-C3FC-2197-4AAFB33EF0D9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:17:05 UTC</createdTime>
+<commentInRDBMS>CAMPO QUE PUEDE SER DE USO GENERICO, EJEMPLO: DESCRIBIR EL PORQUE DE UN ESTADO DE DESPIDO O DE VACACIONES.</commentInRDBMS>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="68A8AE0D-A638-9DF6-B5F9-8A42F0E140D5" name="TBL_EMPLEADOS_PK">
@@ -212,6 +290,56 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2A98309A-A1D4-0339-5433-282221DB8777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A72EF7D-CFC5-C320-8C17-D51D574ED87A" name="TBL_EMPLEADOS_TBL_ESTADOS_EMPLEADOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:12:42 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13F64876-A082-7555-C579-18ADA0F3441F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82610BAF-08B3-8D53-286A-DE367420AB5D" name="TBL_EMPLEADOS_TBL_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:21:41 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="965348CC-399C-2665-911B-BA1F0C1DEEDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AE55BDC-FBD0-73B3-D67D-ABFAF7030314" name="TBL_EMPLEADOS_TBL_ESTADOS_CIVILES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:36:23 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C72A051-0549-0E86-FAC8-9522011A584D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F631FC21-C7D2-6B77-73C1-4A4CE1BC64F2" name="TBL_EMPLEADOS_TBL_DEPARTAMENTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:40:58 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFF08E78-58DA-FA84-A8B7-412ED160D701"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C70EA754-4BF4-0A2A-150D-89BE78C2511F" name="TBL_EMPLEADOS_TBL_CUENTAS_BANCARIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:31:26 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="819387DD-BE1A-609B-FA85-832D3E05AE10"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

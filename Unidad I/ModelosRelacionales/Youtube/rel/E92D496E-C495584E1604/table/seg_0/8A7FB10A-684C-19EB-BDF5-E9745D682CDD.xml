@@ -46,7 +46,7 @@
 <colUsage columnID="1F78ABD7-9E72-F281-A941-C480EF91F290"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6EF18C41-17E9-68DE-2D7F-0128896410D7" name="TBL_LISTAS_X_USUARIO_TBL_USUARIOS_FK">
+<ind_PK_UK id="6EF18C41-17E9-68DE-2D7F-0128896410D7" name="LIST_USU_USU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-08 17:22:13 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -56,7 +56,7 @@
 <colUsage columnID="1F78ABD7-9E72-F281-A941-C480EF91F290"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="506E0601-2B58-B8CF-81B1-2CC619BC50D8" name="TBL_LISTAS_X_USUARIO_TBL_LISTAS_REPRODUCCION_FK">
+<ind_PK_UK id="506E0601-2B58-B8CF-81B1-2CC619BC50D8" name="LIS_X_USU_LIST_REP_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-08 17:22:17 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

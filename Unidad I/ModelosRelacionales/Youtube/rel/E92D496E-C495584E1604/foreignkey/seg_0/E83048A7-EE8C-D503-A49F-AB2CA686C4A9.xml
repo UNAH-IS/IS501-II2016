@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E83048A7-EE8C-D503-A49F-AB2CA686C4A9" containerWithKeyObject="0724FDA3-9F80-C15D-38EA-84DDC3005CA3" localFKIndex="5B091B32-C5BD-E107-49AB-CC1C8FC80DDE" name="TBL_VIDEOS_TBL_ESTADOS_VIDEOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E83048A7-EE8C-D503-A49F-AB2CA686C4A9" containerWithKeyObject="0724FDA3-9F80-C15D-38EA-84DDC3005CA3" localFKIndex="5B091B32-C5BD-E107-49AB-CC1C8FC80DDE" name="VID_EST_VID_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-04 17:43:02 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

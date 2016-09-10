@@ -85,7 +85,7 @@
 <colUsage columnID="A0A78541-9594-D526-4670-9D19A13A3D08"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4F9FE65C-9CD9-D90D-1A45-6A7B76D8B22E" name="TBL_HISTORIAL_VIDEOS_TBL_VIDEOS_FK">
+<ind_PK_UK id="4F9FE65C-9CD9-D90D-1A45-6A7B76D8B22E" name="HIST_VIDEOS_VID_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-09 17:17:46 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -95,7 +95,7 @@
 <colUsage columnID="1C021C2E-D00A-85E7-0F6D-E1E07BCF2B15"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B744B8AE-461E-A006-EAC3-F615FDCC1DD0" name="TBL_HISTORIAL_VIDEOS_TBL_USUARIOS_FK">
+<ind_PK_UK id="B744B8AE-461E-A006-EAC3-F615FDCC1DD0" name="HIST_VID_USUARIOS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-09 17:18:27 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -105,7 +105,7 @@
 <colUsage columnID="4FF7CA05-63DB-3FEB-05D7-0B7D1F92AEAE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="29D5D4B0-C0BB-911E-95C0-C33B2457D742" name="TBL_HISTORIAL_VIDEOS_TBL_ORIGEN_VISUALIZACION_FK">
+<ind_PK_UK id="29D5D4B0-C0BB-911E-95C0-C33B2457D742" name="HIST_VIDEOS_ORIGEN_VIS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-09 17:37:35 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

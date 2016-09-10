@@ -46,7 +46,7 @@
 <colUsage columnID="DB304BF3-FC68-0F34-E52D-2BC04F1A8F9F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0A58F354-B28C-CF2E-3AE8-215877C3A801" name="TBL_CLASIFICACIONES_X_VIDEO_TBL_VIDEOS_FK">
+<ind_PK_UK id="0A58F354-B28C-CF2E-3AE8-215877C3A801" name="CLASI_X_VIDEO_VIDEOS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-09 17:39:58 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

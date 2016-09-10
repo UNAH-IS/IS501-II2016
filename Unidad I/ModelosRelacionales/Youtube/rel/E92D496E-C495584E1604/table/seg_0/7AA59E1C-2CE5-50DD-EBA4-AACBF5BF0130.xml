@@ -103,7 +103,7 @@
 <colUsage columnID="6CE5E8C9-C498-5E84-92E1-B2F22C77519D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ED29AE8A-160B-8A79-79B8-B9EF8B5CA4DD" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<ind_PK_UK id="ED29AE8A-160B-8A79-79B8-B9EF8B5CA4DD" name="LUG_TIPOS_LUGARES_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-04 17:18:04 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

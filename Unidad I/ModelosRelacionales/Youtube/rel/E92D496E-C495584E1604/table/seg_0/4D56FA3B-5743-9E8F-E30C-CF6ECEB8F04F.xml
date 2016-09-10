@@ -70,7 +70,7 @@
 <colUsage columnID="CFA44C41-7417-7829-BD05-20A618FC82DC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4A1DFC41-C176-4136-901C-851F0A83BFE5" name="TBL_DEPARTAMENTOS_TBL_PAISES_FK">
+<ind_PK_UK id="4A1DFC41-C176-4136-901C-851F0A83BFE5" name="DEP_PAISES_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-03 17:33:35 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

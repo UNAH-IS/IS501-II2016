@@ -27,7 +27,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="38A69C05-E09A-704A-403D-6B0A91C11546" name="TBL_TIPOS_LISTAS_REPRODUCCION_PK">
+<ind_PK_UK id="38A69C05-E09A-704A-403D-6B0A91C11546" name="TIP_LIS_REP_PK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-10 17:37:27 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

@@ -47,7 +47,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="62E80709-72F2-B8A1-0CC0-DC354F6F8AF0" name="TBL_ESTADOS_VIDEOS_X_LUGARES_PK">
+<ind_PK_UK id="62E80709-72F2-B8A1-0CC0-DC354F6F8AF0" name="EST_VID_X_LUG_PK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-04 17:47:22 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -69,7 +69,7 @@
 <colUsage columnID="8C341B7F-3EBF-8891-A286-6C9BC90C9BD1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="50C0376E-B3AF-AEBE-CC16-61233C42DE3B" name="TABLE_10_TBL_ESTADOS_VIDEOS_FK">
+<ind_PK_UK id="50C0376E-B3AF-AEBE-CC16-61233C42DE3B" name="ESTADOS_VIDEOS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-04 17:44:04 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

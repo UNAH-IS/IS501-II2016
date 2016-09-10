@@ -86,7 +86,7 @@
 <colUsage columnID="88C083F8-D48C-AE69-3FAA-7854A24772C9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="73B98E33-FB79-0F6B-B847-252651FA6538" name="TBL_CUENTAS_BANCARIAS_TBL_LUGARES_FK">
+<ind_PK_UK id="73B98E33-FB79-0F6B-B847-252651FA6538" name="CUENTAS_BANC_LUGARES_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-11 17:19:05 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -96,7 +96,7 @@
 <colUsage columnID="01272635-E15D-0289-552C-B6FBD85A6325"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C5ED399C-E66F-6EA8-2097-D178C087C0BA" name="TBL_CUENTAS_BANCARIAS_TBL_BANCOS_FK">
+<ind_PK_UK id="C5ED399C-E66F-6EA8-2097-D178C087C0BA" name="CUENTAS_BANC_BANCOS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-11 17:19:47 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -106,7 +106,7 @@
 <colUsage columnID="DFCC6761-8DAA-DF82-E14D-C9F2780FB8C6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="56511AB6-BCCE-0080-E5DB-AEBC3428E573" name="TBL_CUENTAS_BANCARIAS_TBL_USUARIOS_FK">
+<ind_PK_UK id="56511AB6-BCCE-0080-E5DB-AEBC3428E573" name="CUE_BANC_USU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-11 17:19:52 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

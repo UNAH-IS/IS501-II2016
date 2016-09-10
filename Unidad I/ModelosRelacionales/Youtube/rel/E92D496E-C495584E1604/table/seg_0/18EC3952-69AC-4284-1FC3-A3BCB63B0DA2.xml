@@ -96,7 +96,7 @@
 <colUsage columnID="0750401C-B120-61D9-05E6-14556ED07747"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4A6EB3B9-4137-5B3F-11BD-A2BD3B85F559" name="TBL_COMENTARIOS_TBL_USUARIOS_FK">
+<ind_PK_UK id="4A6EB3B9-4137-5B3F-11BD-A2BD3B85F559" name="COM_USU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-05 17:17:11 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -106,7 +106,7 @@
 <colUsage columnID="1A8BE584-B139-575E-A6FC-29634A743FC7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C7BEED4F-83AD-83EF-0ABF-D1257EBEC2FB" name="TBL_COMENTARIOS_TBL_VIDEOS_FK">
+<ind_PK_UK id="C7BEED4F-83AD-83EF-0ABF-D1257EBEC2FB" name="TBL_COM_TBL_VIDEOS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-05 17:17:17 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
@@ -116,7 +116,7 @@
 <colUsage columnID="D9C41215-2B2C-5F19-CA0A-F8CEF89DD0CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AA1D1CD7-2DD1-5721-E020-AE442D14923E" name="TBL_COMENTARIOS_TBL_COMENTARIOS_FK">
+<ind_PK_UK id="AA1D1CD7-2DD1-5721-E020-AE442D14923E" name="COMENT_COM_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-05 17:18:47 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

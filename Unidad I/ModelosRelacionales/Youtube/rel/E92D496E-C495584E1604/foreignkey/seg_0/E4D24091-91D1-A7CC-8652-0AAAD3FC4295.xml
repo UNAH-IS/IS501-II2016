@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4D24091-91D1-A7CC-8652-0AAAD3FC4295" containerWithKeyObject="B058C053-F6BE-E96E-DFB1-1E5643A17A4A" localFKIndex="73B98E33-FB79-0F6B-B847-252651FA6538" name="TBL_CUENTAS_BANCARIAS_TBL_LUGARES_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4D24091-91D1-A7CC-8652-0AAAD3FC4295" containerWithKeyObject="B058C053-F6BE-E96E-DFB1-1E5643A17A4A" localFKIndex="73B98E33-FB79-0F6B-B847-252651FA6538" name="CUENTAS_BANC_LUGARES_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-11 17:19:05 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>

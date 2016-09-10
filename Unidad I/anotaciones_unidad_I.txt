@@ -64,20 +64,70 @@ SUBTITULOS
 Usuario
 	TIPOS USUARIO
 	ESTADO DEL USUARIO
-ENTIDAD RELACIONADA CON PAGOS
-DENUNCIAS DE CONTENIDA
 Lista de reproduccion
-Cola de reproduccion
 Comentario
 Likes
-Visualizaciones
+Visualizaciones o Historial
 Canal
 Paises
 Origenes -> Como fue que llego al video
 Clasificacion
 Tendencia
-Historial
-VerLuego
 VideosCompartidos
+VerLuego
+ENTIDAD RELACIONADA CON PAGOS
+DENUNCIAS DE CONTENIDO
 
 
+
+
+Modelo relacional RRHH
+Empleados
+	RTN
+Referencias
+Puestos
+Profesión
+Tipo Empleado
+Asistencias (Seguridad, huellas, tarjetas de proximidad)
+Estatus del empleado
+Nacionalidad
+Experiencia
+Estado Civil
+Departamentos
+Sucursales u Oficinas
+Planilla, Aumentos, Deducciones, Bonos, Prestaciones, Seguro, ISR.
+Antecedentes
+
+
+
+ORACLE 11G Xpress Edition
+	-4GB
+	-Indices especiales (BITMAP)
+	-Tablas particionadas
+
+Usuarios especiales de Oracle: SYS, SYSTEM
+Password de las computadoras del lab: oracle
+Puerto: 1521
+IP/Dominio: 127.0.0.1/localhost, ejecutar el comando ipconfig(Windows) o ifconfig(Linux)
+SID(Service ID): XE 
+
+Para conectarse a oracle desde la consola hay que utilizar el programa o comando sqlplus
+
+IDEs:
+SQLDeveloper (Propio de Oracle)
+SQLNavigator (Quest-DELL)
+Toad (Quest-DELL)
+PLSQLDeveloper
+
+Usuarios = Esquemas (Schemas)
+
+
+
+
+SQL
+
+DDL
+	CREATE: Crear estructuras
+	DROP: Eliminar estructuras
+	ALTER: Modificar estructuras
+	

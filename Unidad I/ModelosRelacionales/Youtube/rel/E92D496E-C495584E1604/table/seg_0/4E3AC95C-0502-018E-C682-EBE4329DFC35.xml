@@ -69,7 +69,7 @@
 <colUsage columnID="AB0A814E-4E02-16A1-D51A-9AEA5511E7E0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6A18CCDA-65DE-E89B-8403-C8386D494FD4" name="TBL_MUNICIPIOS_TBL_DEPARTAMENTOS_FK">
+<ind_PK_UK id="6A18CCDA-65DE-E89B-8403-C8386D494FD4" name="MUN_DEPA_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-08-03 17:39:34 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
